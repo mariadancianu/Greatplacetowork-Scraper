@@ -1,7 +1,7 @@
 # Greatplacetowork-Scraper
 A web scraper to extract information from [www.greatplacetowork.es](https://greatplacetowork.es). 
 In more detail it extracts the following information:
-- Company name;
+- Company name
 - Number of employees
 - Sector
 - Headquarters
