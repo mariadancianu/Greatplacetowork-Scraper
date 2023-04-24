@@ -10,14 +10,13 @@ import pandas as pd
 from time import sleep 
 
 
-def get_url_soup(url, 
-                 crawling_delay=5):
+def get_url_soup(url, crawling_delay=10):
     """Opens the website and returns a BeautifulSoup object.
     
     Args:
       homepage_url: string
           URL of the website to be scraped. 
-      crawling_delay: int, optional, Default = 5 
+      crawling_delay: int, optional, Default = 10
           Waiting time, in seconds, before crawling the website page. 
           This is required to avoid causing performance issues to the 
           website. 
@@ -200,7 +199,6 @@ def scrape_page_companies(soup):
         page_companies_list.append(company_data_dict)
    
     return page_companies_list
-    
     
     
 def get_website_num_pages(homepage_url):
