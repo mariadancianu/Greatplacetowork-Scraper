@@ -25,6 +25,14 @@ Python libraries:
 - pandas
 - time
 
+## Learning points 
+- inspect the structure of the html page from which to scrape the data and identify the required elements
+- getting familiar with the BeautifulSoup library 
+- extract the number of pages of the website and scrape the data on all pages 
+- extract URLs from the main page, open them and extract additional information from these pages 
+- using a crawling delay to avoid performance issues for the scraped website 
+
+
 ## Status
 Project is: *in progress*. 
 
