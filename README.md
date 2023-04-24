@@ -21,8 +21,9 @@ Python version: 3.11.
 
 Python libraries:
 - BeautifulSoup
-- selenium 
+- urllib 
 - pandas
+- time
 
 ## Status
 Project is: *in progress*. 
