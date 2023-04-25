@@ -276,8 +276,6 @@ def CompaniesDataScraper():
         
     results_df = pd.DataFrame(all_companies_list)       
     results_df.to_csv("great_place_to_work_companies.csv")
-    
-    return results_df
 
    
 if __name__ == '__main__':
