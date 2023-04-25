@@ -1,4 +1,4 @@
-# Greatplacetowork-Scraper
+# Greatplacetowork-Web-Scraper
 A web scraper to extract information from [www.greatplacetowork.es](https://greatplacetowork.es).   
 
   
